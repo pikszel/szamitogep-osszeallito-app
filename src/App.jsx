@@ -1,6 +1,7 @@
 import './App.css'
 import { useState } from 'react'
 
+//processors
 const processors = [
   { name: "i5", price: 50000 },
   { name: "i7", price: 70000 },
@@ -8,6 +9,7 @@ const processors = [
   { name: "Ryzen9", price: 80000 }
 ]
 
+//memories
 const memories = [
   { name: "16 Gb - DDR4", price: 16000 },
   { name: "32 Gb - DDR4", price: 32000 },
